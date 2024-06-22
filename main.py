@@ -29,8 +29,8 @@ class States(Enum):
 used_ids = set()
 
 TOKEN = "TOKEN"
-AML_REQUIREMENTS_GROUP_ID = -1002144716474
-SANCTIONS_COMPLIANCE_GROUP_ID = -4275826655
+AML_REQUIREMENTS_GROUP_ID = "-GROUP_ID"
+SANCTIONS_COMPLIANCE_GROUP_ID = "-GROUP_ID"
 
 
 async def start(update: Update, context: CallbackContext) -> States:
